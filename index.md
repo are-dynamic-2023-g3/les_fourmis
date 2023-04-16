@@ -2,15 +2,9 @@
 
 Notre objectif était de réaliser une méthode de recherche du chemin le plus court entre deux points en utilisant le comportement de fourmis face à cette problématique. Pour ce faire, nous avons d'abord du analyser et comprendre comment les fourmis réuissent un tel exploit. C'est grâce à leur phéromone ; en déposant des phéromones sur le chemin de retour entre la nourriture et leur nid, le chemin le plus court finit par être le plus emprunté.
 
-
-+résultats marquants obtenus
-
 ## Finding the shortest path between two points thanks to ants
 
 Our objective was to create a method for finding the shortest path between two points by using the behaviours of ants when doing such a task. To do so, we first had to understand how ants are capable of such a feat. It's thanks to their pheromones ; by deposing a trail of pheromones on their way back to their nest from food, the shortest path is eventually the one used the most.
-
-
-+results
 
 ## Présentation de l'équipe
 
