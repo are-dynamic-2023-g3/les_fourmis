@@ -40,12 +40,14 @@ pseudo aléatoire de fourmi, en faisant attention à ne pas passer à travers de
 
 ### Semaine 5
 
-
+Durant cette semaine, nous nous sommes rendus compte qu'avec la façon de représenté les fourmis qui avait été fait la semaine précédente, il serait impossible de représenter une colonie qui explore en même temps. Nous sommes donc presque repartis de zéro et avons décidé d'utiliser des tableaux qui contiennent les informations nécessaires pour chaque fourmi.
 
 ### Semaine 6
 
-
+Cette semaine est encore centrée sur le code. Le code a avancé et désormais il est possible de faire plusieurs itérations de déplacement à la suite à l'aide d'un bouton sur la page d'affichage. Malheureusement chaque itération prend un certain temps avant de s'effectuer, plus ou moins long dépendant de la taille du monde et du nombre de fourmis.
 
 ### Semaine 7
+
+L'avancée du code de cette semaine se résume aux déplacements qui sont influencés. Tout d'abord nous avons implémenté un code qui trouve le chemin le plus court entre deux points (algorithme A*) afin de pouvoir simuler un champ de vision pour nos fourmis. Ensuite nous avons implémentés les phéromones avec l'aide d'autres tableaux et de dictionnaires. Après avoir réglé de nombreuses erreurs et corrigé le code une multitude de fois, les phéromones ne nous permettent pas de simuler la façon dont les fourmis trouvent le chemin le plus court entre le nid et la source de nourriture. Nos fourmis semble toujours se déplacer de façon plus ou moins aléatoire. Dans le code final, nous avons donc laissé la version avec les phéromones générant le moins d'erreurs et avec laquelle nous avons effectué le plus de tests. Malheureusement chaque itération peut prendre entre cinq et plusieurs dizaines de secondes, ce qui ralenti considérablement les tests.
 
 <a href="index.html"> Retour à la page principale </a>
