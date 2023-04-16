@@ -36,15 +36,7 @@ Temps nécessaire pour y parvenir
 
 ## Présentation structurée des résultats
 
-Notre modèle est donc le suivant:
-1. Plusieurs fourmis éclaireuses parcourt plus ou moins au hasard l’environnement autour de leur nid
-2. Lorsqu'une fourmi trouve une source de nourriture, elle rentre plus ou moins directement au nid, en laissant sur son chemin une piste de phéromones
-3. Ces phéromones étant attractives, les fourmis passant à proximité vont avoir tendance à suivre, de façon plus ou moins directe, cette piste
-4. Ces mêmes fourmis vont renforcer la piste sur le chemin du retour
-5. Si plusieurs pistes sont possibles pour atteindre la nourriture, la piste la plus courte sera plus souvent fréquenté
-6. La piste la courte sera alors plus renforcé, et donc de plus en plus fréquenté
-7. Les pistes plus longues finiront par être abandonnés
-8. Finalement, les fourmis ont choisi le chemin le plus court
+Pour le modélisation, nous avons utiliser plusieurs tableaux. Un premier tableau contient le "monde", avec les obstacles et le nombre de fourmis différentes qui sont passées sur une case donnée à l'itération en cours. Un deuxième tableau contient la liste des déplacements effectuées à l'itération en cours pour chacune des fourmis, afin d'éviter de compter deux fois le passage d'une même fourmi sur une case durant la même itération.
 
 Pour la réalisation du projet, nous avons utilisé python, et tkinter pour la modélisation en graphe 2D
 
