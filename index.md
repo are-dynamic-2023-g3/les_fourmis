@@ -1,16 +1,14 @@
 # Recherche du chemin le plus court entre deux points à travers les fourmis
 
-Notre objectif était de réaliser une méthode de recherche du chemin le plus court entre deux points en analysant le comportement de fourmis face à cette problématique
+Notre objectif était de réaliser une méthode de recherche du chemin le plus court entre deux points en utilisant le comportement de fourmis face à cette problématique. Pour ce faire, nous avons d'abord du analyser et comprendre comment les fourmis réuissent un tel exploit. C'est grâce à leur phéromone ; en déposant des phéromones sur le chemin de retour entre la nourriture et leur nid, le chemin le plus court finit par être le plus emprunté.
 
-+méthode suivie
 
 +résultats marquants obtenus
 
 ## Finding the shortest path between two points thanks to ants
 
-Our objective was to create a method for finding the shortest path between two points by analyzing the behaviours of ants when doing such a task
+Our objective was to create a method for finding the shortest path between two points by using the behaviours of ants when doing such a task. To do so, we first had to understand how ants are capable of such a feat. It's thanks to their pheromones ; by deposing a trail of pheromones on their way back to their nest from food, the shortest path is eventually the one used the most.
 
-+methodology
 
 +results
 
@@ -44,13 +42,26 @@ Temps nécessaire pour y parvenir
 
 ## Présentation structurée des résultats
 
-Présentation du choix de modélisation, des outils, du code et des résultats (tableaux, courbes, animations...) (**avec une analyse critique**).
+Notre modèle est donc le suivant:
+1. Plusieurs fourmis éclaireuses parcourt plus ou moins au hasard l’environnement autour de leur nid
+2. Lorsqu'une fourmi trouve une source de nourriture, elle rentre plus ou moins directement au nid, en laissant sur son chemin une piste de phéromones
+3. Ces phéromones étant attractives, les fourmis passant à proximité vont avoir tendance à suivre, de façon plus ou moins directe, cette piste
+4. Ces mêmes fourmis vont renforcer la piste sur le chemin du retour
+5. Si plusieurs pistes sont possibles pour atteindre la nourriture, la piste la plus courte sera plus souvent fréquenté
+6. La piste la courte sera alors plus renforcé, et donc de plus en plus fréquenté
+7. Les pistes plus longues finiront par être abandonnés
+8. Finalement, les fourmis ont choisi le chemin le plus court
+
+Pour la réalisation du projet, nous avons utilisé python, et tkinter pour la modélisation en graphe 2D
+
+Présentation du code et des résultats (tableaux, courbes, animations...) (**avec une analyse critique**).
 
 ## Lien vers page de blog : <a href="blog.html"> C'est ici ! </a>
 
 ## Bibliographie :
 
-**Carte mentale de vos mots-clés, en utilisant** <a href="https://framindmap.org/mindmaps/index.html">Framindmap </a> 
+
+![mindmap](https://user-images.githubusercontent.com/125261735/232340293-6c45479c-329b-4403-a7f1-8a783b0fb669.png)
 
 1. Shelokar, P. S., et al. « An Ant Colony Approach for Clustering ». Analytica Chimica Acta, vol.
 509, n
