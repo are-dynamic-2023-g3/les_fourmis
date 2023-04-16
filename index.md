@@ -16,7 +16,7 @@ Our objective was to create a method for finding the shortest path between two p
 
 ## Présentation de l'équipe
 
-|(´・ω・｀)| ( ͡° ͜ʖ ͡°) | ಠ_ಠ | ᕕ( ᐛ )ᕗ |
+|(⌐■_■)|(⌐■_■)|(⌐■_■)|(⌐■_■)|
 |-----|--|--|--|
 | L. Huang | L. Mao | E. Liani  | E. Bouaziz  |
 
