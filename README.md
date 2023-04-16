@@ -5,7 +5,7 @@ La recherche d'un plus court chemin d'un point à un autre est un problème de l
 ## Règles de modélisation
 Notre modélisation se base sur 4 paramètres :
 - La taille de l'environnement
-- Le champ de vision d'un fourmis
+- Le champ de vision d'une fourmis
 - Le nombre de fourmis
 - Le taux d'influence des phéromones sur les fourmis
 
