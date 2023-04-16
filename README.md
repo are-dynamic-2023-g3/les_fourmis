@@ -20,7 +20,7 @@ Notre algorithme se base sur :
 5. A terme, l'ensemble des fourmis choisissent le chemin le plus court.
 
 ##  Membres du groupe 
-Loic Huang | Lucke Mao | Ethan Liani  | Elia Bouaziz  
+Loïc Huang | Lucke Mao | Ethan Liani  | Elia Bouaziz  
 
 ## Compte rendu 
 https://github.com/are-dynamic-2023-g3/les_fourmis/blob/main/blog.md
